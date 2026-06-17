@@ -1,0 +1,46 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Waxis Enterprise Knowledge and Domain AI dashboard</title>
+  <desc id="desc">A black and white dashboard illustration showing knowledge search, citations, document ingestion, graph, glossary, and evaluation.</desc>
+  <style>
+    .bg{fill:#fff}.line{stroke:#111;stroke-width:1.4}.soft{stroke:#cfcfcf;stroke-width:1}.panel{fill:#fff;stroke:#111;stroke-width:1.4}.sub{fill:#f7f7f7;stroke:#d8d8d8}.title{font:600 24px Inter,Arial,sans-serif;fill:#111}.h{font:600 15px Inter,Arial,sans-serif;fill:#111}.t{font:500 12px Inter,Arial,sans-serif;fill:#555}.xs{font:500 10px Inter,Arial,sans-serif;fill:#777}
+  </style>
+  <rect class="bg" width="1280" height="720"/>
+  <rect x="70" y="58" width="1140" height="604" rx="26" class="panel"/>
+  <rect x="70" y="58" width="1140" height="58" rx="26" class="sub"/>
+  <path d="M70 94H1210" class="soft"/>
+  <circle cx="104" cy="86" r="7" fill="#111"/><circle cx="128" cy="86" r="7" fill="#777"/><circle cx="152" cy="86" r="7" fill="#d0d0d0"/>
+  <text x="188" y="93" class="title">Waxis Enterprise Knowledge AI</text>
+  <rect x="98" y="146" width="464" height="224" rx="18" class="panel"/>
+  <text x="124" y="181" class="h">Cited Answer</text>
+  <rect x="124" y="214" width="382" height="16" rx="8" fill="#111"/>
+  <rect x="124" y="250" width="330" height="10" rx="5" fill="#777"/>
+  <rect x="124" y="276" width="362" height="10" rx="5" fill="#777"/>
+  <rect x="124" y="320" width="118" height="26" rx="13" fill="#f7f7f7" stroke="#111"/>
+  <rect x="258" y="320" width="118" height="26" rx="13" fill="#f7f7f7" stroke="#d8d8d8"/>
+  <rect x="592" y="146" width="250" height="224" rx="18" class="panel"/>
+  <text x="618" y="181" class="h">Sources</text>
+  <rect x="618" y="214" width="178" height="38" rx="10" class="sub"/>
+  <rect x="618" y="270" width="178" height="38" rx="10" class="sub"/>
+  <rect x="618" y="326" width="178" height="26" rx="13" fill="#fff" stroke="#111"/>
+  <rect x="872" y="146" width="288" height="224" rx="18" class="panel"/>
+  <text x="898" y="181" class="h">Knowledge Graph</text>
+  <circle cx="962" cy="248" r="22" fill="#111"/><circle cx="1056" cy="220" r="18" fill="#fff" stroke="#111"/><circle cx="1080" cy="306" r="18" fill="#fff" stroke="#111"/><circle cx="972" cy="318" r="16" fill="#f7f7f7" stroke="#111"/>
+  <path d="M982 242L1038 226M976 265L1064 294M968 270L972 302M1059 238L1076 288" class="line"/>
+  <rect x="98" y="400" width="294" height="204" rx="18" class="panel"/>
+  <text x="124" y="435" class="h">Ingestion Health</text>
+  <rect x="124" y="468" width="214" height="28" rx="14" fill="#111"/>
+  <rect x="124" y="512" width="214" height="28" rx="14" fill="#f7f7f7" stroke="#111"/>
+  <rect x="124" y="556" width="160" height="20" rx="10" fill="#d8d8d8"/>
+  <rect x="422" y="400" width="324" height="204" rx="18" class="panel"/>
+  <text x="448" y="435" class="h">Glossary</text>
+  <rect x="448" y="470" width="78" height="28" rx="14" fill="#111"/>
+  <rect x="538" y="470" width="86" height="28" rx="14" fill="#fff" stroke="#111"/>
+  <rect x="636" y="470" width="66" height="28" rx="14" fill="#fff" stroke="#d8d8d8"/>
+  <rect x="448" y="526" width="210" height="10" rx="5" fill="#777"/>
+  <rect x="448" y="556" width="166" height="10" rx="5" fill="#d8d8d8"/>
+  <rect x="776" y="400" width="384" height="204" rx="18" class="panel"/>
+  <text x="802" y="435" class="h">Evaluation Quality</text>
+  <path d="M816 552L866 520L922 536L980 488L1050 502L1120 458" class="line"/>
+  <path d="M816 552H1128M816 502H1128M816 456H1128" class="soft"/>
+</svg>
+
