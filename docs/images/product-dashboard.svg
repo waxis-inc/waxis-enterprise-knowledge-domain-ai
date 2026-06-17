@@ -1,58 +1,64 @@
-<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Waxis Enterprise Knowledge and Domain AI dashboard</title>
-  <desc id="desc">A black and white dashboard illustration showing knowledge search, citations, document ingestion, graph, glossary, and evaluation.</desc>
-  <style>
-    .bg{fill:#fff}.line{stroke:#111;stroke-width:1.4}.soft{stroke:#cfcfcf;stroke-width:1}.panel{fill:#fff;stroke:#111;stroke-width:1.4}.sub{fill:#f7f7f7;stroke:#d8d8d8}.title{font:600 24px Inter,Arial,sans-serif;fill:#111}.h{font:600 15px Inter,Arial,sans-serif;fill:#111}.t{font:500 12px Inter,Arial,sans-serif;fill:#555}.xs{font:500 10px Inter,Arial,sans-serif;fill:#777}
-  </style>
-  <rect class="bg" width="1280" height="720"/>
-  <rect x="70" y="58" width="1140" height="604" rx="26" class="panel"/>
-  <rect x="70" y="58" width="1140" height="58" rx="26" class="sub"/>
-  <path d="M70 94H1210" class="soft"/>
-  <circle cx="104" cy="86" r="7" fill="#111"/><circle cx="128" cy="86" r="7" fill="#777"/><circle cx="152" cy="86" r="7" fill="#d0d0d0"/>
-  <text x="188" y="93" class="title">Waxis Enterprise Knowledge AI</text>
-  <rect x="98" y="146" width="464" height="224" rx="18" class="panel"/>
-  <text x="124" y="181" class="h">Permissioned Search</text>
-  <rect x="124" y="214" width="382" height="16" rx="8" fill="#111"/>
-  <rect x="124" y="250" width="330" height="10" rx="5" fill="#777"/>
-  <rect x="124" y="276" width="362" height="10" rx="5" fill="#777"/>
-  <rect x="124" y="320" width="118" height="26" rx="13" fill="#f7f7f7" stroke="#111"/>
-  <rect x="258" y="320" width="118" height="26" rx="13" fill="#f7f7f7" stroke="#d8d8d8"/>
-  <text x="124" y="206" class="xs">Cited Answer</text>
-  <text x="146" y="337" class="xs">RAG Retrieval</text>
-  <text x="286" y="337" class="xs">Access Groups</text>
-  <rect x="592" y="146" width="250" height="224" rx="18" class="panel"/>
-  <text x="618" y="181" class="h">Sources</text>
-  <rect x="618" y="214" width="178" height="38" rx="10" class="sub"/>
-  <rect x="618" y="270" width="178" height="38" rx="10" class="sub"/>
-  <rect x="618" y="326" width="178" height="26" rx="13" fill="#fff" stroke="#111"/>
-  <text x="638" y="238" class="xs">Source Freshness</text>
-  <text x="638" y="294" class="xs">Document Ingestion</text>
-  <text x="638" y="343" class="xs">citation preview</text>
-  <rect x="872" y="146" width="288" height="224" rx="18" class="panel"/>
-  <text x="898" y="181" class="h">Knowledge Graph</text>
-  <circle cx="962" cy="248" r="22" fill="#111"/><circle cx="1056" cy="220" r="18" fill="#fff" stroke="#111"/><circle cx="1080" cy="306" r="18" fill="#fff" stroke="#111"/><circle cx="972" cy="318" r="16" fill="#f7f7f7" stroke="#111"/>
-  <path d="M982 242L1038 226M976 265L1064 294M968 270L972 302M1059 238L1076 288" class="line"/>
-  <text x="914" y="344" class="xs">domain relationships</text>
-  <rect x="98" y="400" width="294" height="204" rx="18" class="panel"/>
-  <text x="124" y="435" class="h">Ingestion Health</text>
-  <rect x="124" y="468" width="214" height="28" rx="14" fill="#111"/>
-  <rect x="124" y="512" width="214" height="28" rx="14" fill="#f7f7f7" stroke="#111"/>
-  <rect x="124" y="556" width="160" height="20" rx="10" fill="#d8d8d8"/>
-  <text x="144" y="486" class="xs" fill="#fff">approved docs</text>
-  <text x="144" y="530" class="xs">stale queue</text>
-  <rect x="422" y="400" width="324" height="204" rx="18" class="panel"/>
-  <text x="448" y="435" class="h">Glossary</text>
-  <rect x="448" y="470" width="78" height="28" rx="14" fill="#111"/>
-  <rect x="538" y="470" width="86" height="28" rx="14" fill="#fff" stroke="#111"/>
-  <rect x="636" y="470" width="66" height="28" rx="14" fill="#fff" stroke="#d8d8d8"/>
-  <rect x="448" y="526" width="210" height="10" rx="5" fill="#777"/>
-  <rect x="448" y="556" width="166" height="10" rx="5" fill="#d8d8d8"/>
-  <text x="468" y="488" class="xs" fill="#fff">terms</text>
-  <text x="558" y="488" class="xs">synonyms</text>
-  <text x="448" y="584" class="xs">Agent API</text>
-  <rect x="776" y="400" width="384" height="204" rx="18" class="panel"/>
-  <text x="802" y="435" class="h">Evaluation Score</text>
-  <path d="M816 552L866 520L922 536L980 488L1050 502L1120 458" class="line"/>
-  <path d="M816 552H1128M816 502H1128M816 456H1128" class="soft"/>
-  <text x="816" y="582" class="xs">Knowledge Gaps</text>
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Waxis Enterprise Knowledge &amp; Domain AI">
+
+<style>
+.bg{fill:#fff}.window{fill:#fff;stroke:#111;stroke-width:1.25}.bar{fill:#f7f7f7;stroke:#ddd;stroke-width:1}.panel{fill:#fff;stroke:#111;stroke-width:1.15}.soft{fill:#fafafa;stroke:#d9d9d9;stroke-width:1}.ghost{fill:#f6f6f6;stroke:#e5e5e5;stroke-width:1}.black{fill:#111}.mid{fill:#777}.light{fill:#d8d8d8}.line{stroke:#111;stroke-width:1.25;fill:none}.thin{stroke:#d4d4d4;stroke-width:1;fill:none}.dash{stroke:#999;stroke-width:1;stroke-dasharray:5 5;fill:none}.title{font:700 24px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#111}.sub{font:500 11px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#666}.h{font:700 15px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#111}.t{font:500 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#555}.xs{font:500 10px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#777}.tiny{font:500 8.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#777}.whiteText{font:700 10px -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;fill:#fff}.mono{font:500 10px SFMono-Regular,Menlo,Consolas,monospace;fill:#555}
+</style>
+
+<rect class="bg" width="1280" height="720"/>
+<rect x="48" y="42" width="1184" height="636" rx="28" class="window"/>
+<rect x="48" y="42" width="1184" height="64" rx="28" class="bar"/>
+<path d="M48 82H1232" class="thin"/>
+<circle cx="84" cy="74" r="7" class="black"/><circle cx="110" cy="74" r="7" class="mid"/><circle cx="136" cy="74" r="7" class="light"/>
+<text x="176" y="72" class="title">Waxis Enterprise Knowledge &amp; Domain AI</text>
+<text x="176" y="94" class="sub">Permissioned knowledge, RAG, citations, glossary, GraphRAG, and agent-ready APIs.</text>
+
+<rect x="82" y="138" width="200" height="500" rx="18" class="soft"/>
+<text x="110" y="176" class="h">Product Surface</text>
+<rect x="110" y="218" width="140" height="25" rx="12" fill="#111" stroke="#111" stroke-width="1"/><text x="124" y="235" class="whiteText">Search</text>
+<rect x="110" y="264" width="140" height="25" rx="12" fill="#fff" stroke="#ddd" stroke-width="1"/><text x="124" y="281" class="xs">Sources</text>
+<rect x="110" y="310" width="140" height="25" rx="12" fill="#fff" stroke="#ddd" stroke-width="1"/><text x="124" y="327" class="xs">Graph</text>
+<rect x="110" y="356" width="140" height="25" rx="12" fill="#fff" stroke="#ddd" stroke-width="1"/><text x="124" y="373" class="xs">Glossary</text>
+<rect x="110" y="402" width="140" height="25" rx="12" fill="#fff" stroke="#ddd" stroke-width="1"/><text x="124" y="419" class="xs">Evals</text>
+<path d="M110 568H250" class="thin"/>
+<text x="110" y="604" class="xs">Production-grade view</text>
+<rect x="318" y="138" width="456" height="262" rx="20" class="panel"/>
+<text x="344" y="174" class="h">Permissioned Search + Cited Answer</text>
+<rect x="344" y="204" width="360" height="38" rx="19" fill="#fafafa" stroke="#111" stroke-width="1"/>
+<text x="366" y="229" class="xs">Ask: What policy applies to enterprise onboarding?</text>
+<rect x="344" y="272" width="340" height="9" rx="4.5" fill="#d8d8d8"/>
+<rect x="344" y="296" width="302" height="9" rx="4.5" fill="#d8d8d8"/>
+<rect x="344" y="320" width="360" height="9" rx="4.5" fill="#d8d8d8"/>
+<rect x="344" y="348" width="112" height="25" rx="12" fill="#fff" stroke="#ddd" stroke-width="1"/><text x="358" y="365" class="xs">RAG Retrieval</text>
+<rect x="470" y="348" width="112" height="25" rx="12" fill="#fff" stroke="#ddd" stroke-width="1"/><text x="484" y="365" class="xs">Access Groups</text>
+<rect x="596" y="348" width="94" height="25" rx="12" fill="#fff" stroke="#ddd" stroke-width="1"/><text x="610" y="365" class="xs">No-answer</text>
+<rect x="804" y="138" width="354" height="262" rx="20" class="panel"/>
+<text x="830" y="174" class="h">Knowledge Graph</text>
+<circle cx="890" cy="250" r="22" fill="#111" stroke="#111"/>
+<circle cx="1008" cy="210" r="22" fill="#fff" stroke="#111"/>
+<circle cx="1054" cy="300" r="22" fill="#fff" stroke="#111"/>
+<circle cx="932" cy="334" r="22" fill="#fafafa" stroke="#111"/>
+<circle cx="1114" cy="248" r="22" fill="#fff" stroke="#111"/>
+<path d="M912 246L986 216M910 264L1034 292M904 270L936 316M1030 220L1094 246M1050 284L1100 258" class="line"/>
+<text x="846" y="366" class="xs">GraphRAG-style domain relationships</text>
+<rect x="318" y="430" width="260" height="182" rx="18" class="panel"/>
+<text x="344" y="466" class="h">Sources &amp; Freshness</text>
+<rect x="344" y="498" width="154" height="24" rx="12" fill="#fafafa" stroke="#ddd" stroke-width="1"/>
+<text x="362" y="514" class="xs">SOP v12</text>
+<rect x="512" y="504" width="42" height="8" rx="4" fill="#111"/>
+<rect x="344" y="532" width="154" height="24" rx="12" fill="#fafafa" stroke="#ddd" stroke-width="1"/>
+<text x="362" y="548" class="xs">Contract policy</text>
+<rect x="512" y="538" width="42" height="8" rx="4" fill="#111"/>
+<rect x="344" y="566" width="154" height="24" rx="12" fill="#fafafa" stroke="#ddd" stroke-width="1"/>
+<text x="362" y="582" class="xs">Product doc</text>
+<rect x="512" y="572" width="42" height="8" rx="4" fill="#111"/>
+<rect x="608" y="430" width="250" height="182" rx="18" class="panel"/>
+<text x="634" y="466" class="h">Glossary</text>
+<rect x="634" y="498" width="150" height="25" rx="12" fill="#111" stroke="#111" stroke-width="1"/><text x="648" y="515" class="whiteText">terms</text>
+<rect x="634" y="534" width="150" height="25" rx="12" fill="#fff" stroke="#ddd" stroke-width="1"/><text x="648" y="551" class="xs">synonyms</text>
+<rect x="634" y="570" width="150" height="25" rx="12" fill="#fff" stroke="#ddd" stroke-width="1"/><text x="648" y="587" class="xs">preferred language</text>
+<rect x="888" y="430" width="270" height="182" rx="18" class="panel"/>
+<text x="914" y="466" class="h">Evaluation Score</text>
+<path d="M924 562L970 528L1018 544L1076 500L1128 518" class="line"/>
+<path d="M924 562H1136M924 520H1136" class="thin"/>
+<text x="924" y="588" class="tiny">faithfulness / citation quality / gaps</text>
 </svg>

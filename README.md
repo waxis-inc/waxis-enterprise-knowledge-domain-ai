@@ -2,7 +2,15 @@
 
 Permissioned enterprise knowledge software for document ingestion, hybrid retrieval, RAG, citations, GraphRAG-style domain reasoning, glossary control, and agent-ready knowledge APIs.
 
+## Product Preview
+
 ![Waxis Enterprise Knowledge and Domain AI dashboard](./docs/images/product-dashboard.svg)
+
+![Waxis Enterprise Knowledge and Domain AI workflow](./docs/images/product-workflow.svg)
+
+![Waxis Enterprise Knowledge and Domain AI architecture](./docs/images/product-architecture.svg)
+
+
 
 ## What It Is
 
@@ -64,4 +72,3 @@ The complete product requirements document is here:
 ## Research Basis
 
 This repo uses a June 2026 research snapshot across official RAG, grounding, enterprise search, graph retrieval, agent connector, and AI safety sources, including OpenAI File Search, Amazon Bedrock Knowledge Bases, Google Agent Search, Microsoft GraphRAG, MCP, NIST AI RMF, and OWASP LLM Top 10.
-
